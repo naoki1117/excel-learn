@@ -94,7 +94,7 @@ export default function Home() {
           <li>
             <details>
               <summary>四則演算</summary>
-              足し算、掛け算、割り算
+              足し算、引き算、掛け算、割り算
             </details>
           </li>
           <li>
