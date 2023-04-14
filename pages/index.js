@@ -15,8 +15,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <h1>excel実技</h1>
-        <h2>導入</h2>
+        <h1 style={{ marginBottom: "5px" }}>excel実技</h1>
+        <h2>導入_day1</h2>
         <ol>
           <li>
             <details>
@@ -41,7 +41,28 @@ export default function Home() {
             </details>
           </li>
         </ol>
-        <h2>操作編</h2>
+        <h2>操作編(基本)_day1</h2>
+        <ol>
+          <li>
+            <details>
+              <summary>ブック操作</summary>
+              ブックの作成、保存
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>シート操作</summary>
+              シートの作成、コピー
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>セル選択、入力</summary>
+              セル選択、数値、文字列の入力
+            </details>
+          </li>
+        </ol>
+        <h2>操作編(発展)_day2</h2>
         <ol>
           <li>
             <details>
@@ -61,8 +82,14 @@ export default function Home() {
               グループ集計
             </details>
           </li>
+          <li>
+            <details>
+              <summary>データの入力規則</summary>
+              セルの入力を楽にする
+            </details>
+          </li>
         </ol>
-        <h2>関数編</h2>
+        <h2>関数編_day2</h2>
         <ol>
           <li>
             <details>
