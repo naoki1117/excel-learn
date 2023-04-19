@@ -121,6 +121,29 @@ export default function Home() {
               検索と値の取得
             </details>
           </li>
+          <li>
+            <details>
+              <summary>COUNTIF関数</summary>
+              条件に該当する値をカウントする
+            </details>
+          </li>
+        </ol>
+        <h2>関数編(応用)_day3</h2>
+        <ol>
+          <li>
+            <details>
+              <summary>アルゴリズム理解</summary>
+              関数アルゴリズムの理解と手法の選択
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>コールバック関数</summary>
+              関数のネスト、コールバックの理解
+              <br />
+              IFコールバック、その他
+            </details>
+          </li>
         </ol>
       </main>
     </>
