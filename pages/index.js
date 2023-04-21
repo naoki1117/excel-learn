@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
+import { Details } from "../components/Details";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,28 +19,19 @@ export default function Home() {
         <h1 style={{ marginBottom: "5px" }}>excel実技</h1>
         <h2>導入_day1</h2>
         <ol>
-          <li>
-            <details>
-              <summary>excelの概要</summary>
-              エクセルとは?
-              <br />
-              表計算ソフトのこと
-              <br />
-              excel本体⇒ブック⇒シート⇒セルの関係で成り立つ
-            </details>
-          </li>
-          <li>
-            <details>
-              <summary>関数の概要</summary>
-              関数とは?
-              <br />
-              エクセル内にある内部プログラム
-              <br />
-              引数と戻り値を用いて演算等行う
-              <br />
-              簡単に言うとエクセルの計算に使う便利機能
-            </details>
-          </li>
+          <Details
+            summary="excelの概要"
+            detail1="エクセルとは?"
+            detail2="表計算ソフトのこと"
+            detail3="excel本体⇒ブック⇒シート⇒セルの関係で成り立つ"
+          />
+          <Details
+            summary="関数の概要"
+            detail1="関数とは?"
+            detail2="エクセル内にある内部プログラム"
+            detail3="引数と戻り値を用いて演算等行う"
+            detail4="簡単に言うとエクセルの計算に使う便利機能"
+          />
         </ol>
         <h2>操作編(基本)_day1</h2>
         <ol>
